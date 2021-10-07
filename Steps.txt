@@ -1,0 +1,59 @@
+#if goes to buy threshold buy
+
+#elif goes to sell threshold sell
+
+#technical indicators that check every month/week
+
+
+SMALL:
+get and read historical data
+buy a stock
+sell a stock
+moving averages
+
+
+BIG:
+submit a market order
+technical indicators
+graphs showing history of trades
+create a log showing all trades
+candlestick charts mpl finance
+
+Notes:
+Shorter the tick the more granular strategy needed
+Don't over optimize
+
+
+Three Pillars:
+1. Risk Management - Risk/Return Ratio is 3/4 to 1 (Sharpe Ratio>1, ratio avg win and loss>2)
+2. Order Management - Steps/Execution of order, Type of order
+3. Backtested and Paper Traded Tested Strategy
+
+Lookking for:
+Every hour or two hours check
+Limit trades to 5 per day
+
+Possible Strategies:
+Price
+Indicators
+Volume
+Bollinger Bands
+Support Resistance
+Doji
+
+
+SMA (5/20) - Take 5 bars and check if higher then last 20 bars if so, enter long
+Set parameter of maximum profit you want
+set parameter of maximum loss you want
+Exit long when SMA crosses back to a certain position to make profit
+EMA
+MACD
+RSI
+
+
+
+
+Long-Term Down the Line Goals:
+Machine Learning - Decide which strategy to use
+Machine Learning - Stock Price Prediction
+Sentiment Analysis
